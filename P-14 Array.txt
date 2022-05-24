@@ -1,0 +1,15 @@
+// Arrays
+#include <stdio.h>
+
+int main() 
+{
+    int num[3]={6,7,8};
+    int sum;
+    sum= num[0]+num[1]+num[2];
+    printf("The sum is %d\n",sum);
+    return 0;
+}
+
+
+//Output
+The sum is 21
