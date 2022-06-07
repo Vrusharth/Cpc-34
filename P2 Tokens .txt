@@ -1,31 +1,18 @@
 P2 : Tokens
 //My first C program
-#include
-
-Program
- <stdio.h>
+#include <stdio.h>
 int main()
-
 {
     int A=2;
-     
-double const b=4;
-    
- float c=1.5;
-    
- char d='A';
-    
- printf("The value of A is %d\n",A);
-   
-  printf("The value of b is %lf\n",b);
-   
-  printf("The value of c is %f\n",c);
-     
-printf("The value of d is %c\n",d);
-
-return0;
+     double const b=4;
+     float c=1.5;
+     char d='A';
+    printf("The value of A is %d\n",A);
+     printf("The value of b is %lf\n",b);
+     printf("The value of c is %f\n",c);
+     printf("The value of d is %c\n",d);
+     return0;
 }
-
 Output:
 The value of A is 2
 The value of b is 4.000000
